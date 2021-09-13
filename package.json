@@ -24,7 +24,11 @@
   "homepage": "https://github.com/benshidanny11/awesomebooks#readme",
   "devDependencies": {
     "autoprefixer": "^10.3.4",
+    "babel-eslint": "^10.1.0",
     "cssnano": "^5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
     "postcss-cli": "^8.3.1",
     "tailwindcss": "^2.2.15",
     "webpack-cli": "^4.8.0"
