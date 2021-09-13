@@ -12,7 +12,7 @@ In this project, we designed and built a website for a library app, a place wher
 
 ## Live Demo
 
-[Live Link](https://raw.githack.com/nikoescobal/JS-Restaurant/feature/dist/index.html)
+[Live Link]()
 
 
 ## Getting Started
