@@ -1,4 +1,4 @@
-# Awesome Books (Website built with Vanilla JS, ES6 modules, Tailwind CSS )
+# Awesome Books
 
 In this project, we designed and built a website for a library app, a place where you can add, edit, and remove books to a library. Users can also easily search and navigate between the different sections. 
 
@@ -7,7 +7,6 @@ In this project, we designed and built a website for a library app, a place wher
 - HTML
 - CSS
 - JavaScript
-- Tailwind CSS
 - Visual Studio Code
 - Lots of love :heart:
 
