@@ -9,24 +9,18 @@
   </head>
   <body class="bg-blue-300">
     <h1 class="text-4xl">Awesome Books</h1>
-    <article>
-      <h2>First Book</h2>
-      <h2>Book Name:</h2>
-      <button>Remove</button>
-      <hr />
-    </article>
-
-    <article>
-      <h2>Second Book</h2>
-      <h2>Book Name:</h2>
-      <button>Remove</button>
-      <hr />
-    </article>
-
-    <div class="addBook">
-      <input type="text" placeholder="Title" />
-      <input type="text" placeholder="Author" />
-      <button>Add</button>
+    <div class="books-list-container" id="bookslist">
+      <p id="bookstatus"></p>
     </div>
+    <hr>
+
+    <div class="book-form-container">
+      <input type="text" placeholder="Title" id="title"/>
+      <input type="text" placeholder="Author" id="author"/>
+      <button id="addbook">Add</button>
+    </div>
+
+    <script src="../dist/main.js"></script>
+    <script src="../src/index.js"></script>
   </body>
 </html>

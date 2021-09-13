@@ -25,7 +25,8 @@
   "devDependencies": {
     "autoprefixer": "^10.3.4",
     "cssnano": "^5.0.8",
-    "tailwindcss": "^2.2.15"
+    "tailwindcss": "^2.2.15",
+    "webpack-cli": "^4.8.0"
   },
   "dependencies": {
     "concurrently": "^6.2.1"
