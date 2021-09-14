@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "In this project, we designed and built a website for a library app, a place where you can add, and remove books to a library. Users can also easily search and navigate between the different sections.",
   "main": "index.js",
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/benshidanny11/awesomebooks.git"
