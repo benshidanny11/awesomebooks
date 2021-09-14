@@ -33,9 +33,11 @@ function removeBook(id) {
 const displayBooks = () => {
   const booksData = localStorage.getItem('booksData');
   const convertedBooks = JSON.parse(booksData);
+  document.getElementById('bookstatus').innerHTML = 'No books added';
   if (convertedBooks && convertedBooks.length === 0) {
     document.getElementById('bookstatus').innerHTML = 'No books added';
   } else {
+    document.getElementById('bookstatus').innerHTML = '';
     let html = '';
     convertedBooks.forEach((book) => {
       html += `<article>
@@ -43,7 +45,7 @@ const displayBooks = () => {
      <h2>${book.author}</h2>
      <button data-book-id = "${book.id}" id = "remove-button" onclick="removeBook(${book.id})">Remove</button>
     
-   </article></br>`;
+   </article></br><hr>`;
     });
     document.getElementById('bookslist').innerHTML = html;
   }
