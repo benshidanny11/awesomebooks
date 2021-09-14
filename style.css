@@ -29,16 +29,9 @@ hr {
     color: blue;
 }
 
-.book-title {
-
-}
-
-.book-author {
-
-}
-
 .book-remove {
  padding: 6px;
+ box-shadow: 2px 3px;
 }
 
 .title {
@@ -64,7 +57,6 @@ hr {
   justify-content: flex-end;
   display: flex;
   width: 100%;
-  margin-right: 25px;
 }
 
 #addbook {
@@ -76,6 +68,12 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+.book-form-container input {
+    box-shadow: 1px 1.5px;
+    width: 100%;
 }
 
 .book-form-container h2 {
