@@ -11,7 +11,7 @@ In this project, we designed and built a website for a library app, a place wher
 - Lots of love :heart:
 
 ## Screenshot
-[Screenshot](img/awesomebooks.png)
+[](img/awesomebooks.png)
 
 ## Live Demo
 
