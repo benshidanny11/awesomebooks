@@ -10,9 +10,12 @@ In this project, we designed and built a website for a library app, a place wher
 - Visual Studio Code
 - Lots of love :heart:
 
+## Screenshot
+![Screenshot](img/awesomebooks.png)
+
 ## Live Demo
 
-[Live Link]()
+[Live Link](https://benshidanny11.github.io/awesomebooks/)
 
 
 ## Getting Started
@@ -23,7 +26,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone this repository. 
 - Navigate to the project folder (Library) and open the ``index.html`` with the browser.
-- Run `npx webpack --watch`
 
 ## Run Tests
 
@@ -65,10 +67,13 @@ Feel free to check the [issues page](https://github.com/benshidanny11/awesomeboo
 
 ## Show your support
 
-Give a ￼️ if you like this project!
+Give a 👍 if you like this project!
 
 ## Acknowledgments
 
 - Microverse
 
-## ￼ MIT License
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
+

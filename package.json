@@ -1,0 +1,24 @@
+{
+  "name": "awesomebooks",
+  "version": "1.0.0",
+  "description": "In this project, we designed and built a website for a library app, a place where you can add, and remove books to a library. Users can also easily search and navigate between the different sections.",
+  "main": "index.js",
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benshidanny11/awesomebooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benshidanny11/awesomebooks/issues"
+  },
+  "homepage": "https://github.com/benshidanny11/awesomebooks#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
