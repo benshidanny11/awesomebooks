@@ -18,10 +18,11 @@ body h1 {
 
 .books-list-container {
     display: flex;
+    width: 40%;
     flex-direction: column;
+    align-content: center;
     justify-content: center;
     border: 2px solid rgb(100, 100, 100);
-    width: 40%;
 }
 
 hr {
@@ -59,7 +60,33 @@ hr {
   margin-top: 1rem;
 }
 
+.button-container {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  margin-right: 25px;
+}
+
 #addbook {
   padding: 6px 2rem;
-  margin-top: 1rem;
 }
+
+.book-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-form-container h2 {
+  padding: 7px 0;
+  text-align: center;
+}
+
+.border-special {
+  height: 3px;
+  background-color: black;
+  width: 30%;
+  margin: 4px 0;
+}
+
