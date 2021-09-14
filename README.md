@@ -10,6 +10,9 @@ In this project, we designed and built a website for a library app, a place wher
 - Visual Studio Code
 - Lots of love :heart:
 
+## Screenshot
+[Screenshot](img/awesomebooks.png)
+
 ## Live Demo
 
 [Live Link](https://benshidanny11.github.io/awesomebooks/)
