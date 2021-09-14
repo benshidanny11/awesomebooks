@@ -35,12 +35,10 @@ class Book {
       document.getElementById('bookstatus').innerHTML = '';
       let html = '';
       convertedBooks.forEach((book) => {
-        html += `<article>
-    <h2>${book.title}</h2>
-    <h2>${book.author}</h2>
-    <button data-book-id = "${book.id}" id = "remove-button" onclick="removeBook(${book.id})">Remove</button>
-    
-    </article></br><hr>`;
+        html += `<article class="article-container">
+    <h2 class="title">"${book.title}" by ${book.author}</h2>
+    <button class="book-remove" data-book-id = "${book.id}" id = "remove-button" onclick="removeBook(${book.id})">Remove</button>
+    </article></br>`;
       });
       document.getElementById('bookslist').innerHTML = html;
     }
