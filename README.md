@@ -23,7 +23,6 @@ To get a local copy up and running follow these simple example steps.
 
 - Clone this repository. 
 - Navigate to the project folder (Library) and open the ``index.html`` with the browser.
-- Run `npx webpack --watch`
 
 ## Run Tests
 
