@@ -12,7 +12,7 @@ In this project, we designed and built a website for a library app, a place wher
 
 ## Live Demo
 
-[Live Link]()
+[Live Link](https://benshidanny11.github.io/awesomebooks/)
 
 
 ## Getting Started
@@ -64,10 +64,13 @@ Feel free to check the [issues page](https://github.com/benshidanny11/awesomeboo
 
 ## Show your support
 
-Give a ￼️ if you like this project!
+Give a 👍 if you like this project!
 
 ## Acknowledgments
 
 - Microverse
 
-## ￼ MIT License
+## 📝 License
+
+This project is [MIT](./licence.md) licensed.
+
