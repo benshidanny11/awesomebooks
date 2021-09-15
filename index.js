@@ -62,6 +62,8 @@ document.getElementById('addbook').addEventListener('click', () => {
 window.addEventListener('load', () => {
   const book = new Book();
   book.displayBooks();
+  const now = luxon.DateTime();
+  document.getElementById('date-time').innerHTML = now;
 });
 
 document.getElementById('list-books-item').addEventListener('click', () => {
