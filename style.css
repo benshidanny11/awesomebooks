@@ -7,7 +7,7 @@
 body {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -15,6 +15,29 @@ body {
 body h1 {
   text-align: center;
   padding: 15px;
+}
+
+.navbar {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: solid black 2px;
+  padding: 10px;
+  width: 98%;
+  margin: 10px 20px;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 15px;
+  padding-left: 50px;
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 10px 15px;
 }
 
 .books-list-container {
@@ -95,17 +118,23 @@ hr {
   justify-content: space-between;
   align-items: center;
   height: 300px;
-  margin-top: 30px;
+  margin: 30px 0;
+}
+
+.contact details {
+  margin: 10px 0;
 }
 
 .contact h2 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 40px;
+  padding: 10px 0;
 }
 
 .contact h4 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+  padding: 10px 0;
 }
 
 .contact ul li {
@@ -114,5 +143,13 @@ hr {
 
 .the-footer {
   display: flex;
+  width: 100%;
   align-self: flex-start;
+  border: solid black 2px;
+  padding: 10px;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 20px;
 }
