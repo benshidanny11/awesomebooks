@@ -65,7 +65,12 @@ window.addEventListener('load', () => {
 });
 
 document.getElementById('list-books-item').addEventListener('click', () => {
-  
+  const list = document.getElementById('book-container');
+  list.classList.remove('hide');
+  const section = document.getElementById('section-addbook');
+  section.classList.add('hide');
+  const contact = document.getElementById('contact-section');
+  contact.classList.add('hide');
 });
 
 document.getElementById('add-books-item').addEventListener('click', () => {
@@ -73,8 +78,10 @@ document.getElementById('add-books-item').addEventListener('click', () => {
   sectionAddBook.classList.remove('hide');
   const bookContainer = document.getElementById('book-container');
   bookContainer.classList.add('hide');
+  const contact = document.getElementById('contact-section');
+  contact.classList.add('hide');
 });
 
 document.getElementById('add-contact-item').addEventListener('click', () => {
-  
+
 });
