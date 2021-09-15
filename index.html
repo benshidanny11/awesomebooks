@@ -4,28 +4,75 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Library App</title>
   </head>
   <body>
-    <h1 class="text-4xl">Awesome Books</h1>
-    <div class="books-list-container" id="bookslist">
-      <p id="bookstatus"></p>
-    </div>
-    <br />
-    <br />
-    <hr />
+    <nav class="navbar">
+      <h3>Awesome Books</h3>
+      <ul class="navlist">
+        <li class="navitems active" id="list-books-item">List</li>
+        <li class="vl navitems" id="add-books-item">Add new</li>
+        <li class="vl navitems" id="add-contact-item">Contact</li>
+      </ul>
+    </nav>
 
-    <div class="book-form-container">
-      <hr class="border-special" />
+    <div class="date-container">
+      <p id="date-time"></p>
+    </div>
+
+    <div id="book-container">
+      <h1 class="text-4xl">Awesome Books</h1>
+      <div class="books-list-container" id="bookslist">
+        <p id="bookstatus"></p>
+      </div>
+      <br />
+      <br />
+    </div>
+
+    <div class="book-form-container hide" id="section-addbook">
       <h2>Add a New Book</h2>
-      <input type="text" placeholder="Title" id="title" class="" /><br />
-      <input type="text" placeholder="Author" id="author" /><br />
+      <input
+        type="text"
+        placeholder="Title"
+        id="title"
+        class="form-input"
+      /><br />
+      <input
+        type="text"
+        placeholder="Author"
+        id="author"
+        class="form-input"
+      /><br />
       <div class="button-container">
         <button id="addbook">Add</button>
       </div>
     </div>
 
+    <section class="contact hide" id="contact-section">
+      <h2>Contact Information</h2>
+      <h4>
+        Do you have any questions or you just want to say "Hello"?<br />You can
+        reach out to us!
+      </h4>
+
+      <ul class="contact-details">
+        <li>Our email: danielnikolastoluwase@gmail.com</li>
+        <li>Our phone number: +233 5647 6578</li>
+        <li>Our address, streetname: 23 Glasgow, Scotland</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div class="the-footer">
+        <p>Copyright</p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>...</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@2.0.2/build/global/luxon.min.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>
