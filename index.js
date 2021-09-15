@@ -63,3 +63,18 @@ window.addEventListener('load', () => {
   const book = new Book();
   book.displayBooks();
 });
+
+document.getElementById('list-books-item').addEventListener('click', () => {
+  
+});
+
+document.getElementById('add-books-item').addEventListener('click', () => {
+  const sectionAddBook = document.getElementById('section-addbook');
+  sectionAddBook.classList.remove('hide');
+  const bookContainer = document.getElementById('book-container');
+  bookContainer.classList.add('hide');
+});
+
+document.getElementById('add-contact-item').addEventListener('click', () => {
+  
+});
