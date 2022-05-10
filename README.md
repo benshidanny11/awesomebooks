@@ -1,6 +1,8 @@
-# Awesome Books
+# Project: Awesome Books
 
-In this project, we designed and built a website for a library app, a place where you can add, edit, and remove books to a library. Users can also easily search and navigate between the different sections. 
+## Decription
+
+> In this project, we designed and built a website for a library app, a place where you can add, edit, and remove books to a library. Users can also easily search and navigate between the different sections. The purpose of this project was learning how to build a single page applications(SPA) and navigate through pages using javascript.
 
 ## Built with
 
